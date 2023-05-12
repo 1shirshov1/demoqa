@@ -1,5 +1,5 @@
 from components.components import WebElement
-
+from pages.base_page import BasePage
 class FromPage(BasePage):
 
     def __init__(self, driver):
